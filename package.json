@@ -1,0 +1,34 @@
+{
+  "name": "gulpweapp",
+  "version": "1.0.0",
+  "description": "a kit for weapp by gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node ./create.js"
+  },
+  "keywords": [
+    "gulp",
+    "weapp"
+  ],
+  "author": "nhb",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-scss": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "mkdirp": "^0.5.1",
+    "pump": "^3.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}

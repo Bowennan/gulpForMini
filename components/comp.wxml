@@ -1,0 +1,8 @@
+<!-- 组件 custom-component.wxml -->
+<custom-component>
+  <view>{{myProperty}}</view>
+  <button class="btn-style" bindtap='onMyButtonTap'>Button</button>
+  <view>{{A[0].B}}</view>
+  <button bindtap='_myPrivateMethod'>_myPrivateMethod</button>
+   <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="/images/10.png"></image>
+</custom-component>
